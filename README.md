@@ -204,28 +204,6 @@ On Windows, `py -X utf8` can replace `python` if console encoding causes problem
 
 Keep article authorship as Sana Hosseni, legal publisher details separate, article hero bylines intact and archive heroes without author metadata. Preserve keyboard controls, reduced-motion behaviour, no-JavaScript instructional content and carousel pause-on-hover/focus behaviour.
 
-## SEO, AEO and GEO
-
-This README uses a descriptive title, direct answers, meaningful links, defined entities, explicit assumptions and sourced explanations. **SEO** means search engine optimisation; **AEO** means answer engine optimisation; **GEO** means generative engine optimisation.
-
-| Area | Implementation and maintenance |
-| --- | --- |
-| Search intent | Organise content around refinance savings, costs, LVR, usable equity and repayments |
-| Crawlable content | Keep important instructions and answers in HTML, including without JavaScript |
-| Canonical URLs | Use `https://refinance.org.au/` consistently in the primary edition's canonicals, sitemap and schema |
-| Internal discovery | Link existing tools and guides through menus, archives and contextual cards |
-| Answer clarity | Put a concise answer beneath each question heading; explain units and assumptions |
-| Entity consistency | Use Refinance Calculator AU, Sana Hosseni and Suncorp Industries Pty Ltd in their distinct roles |
-| Structured data | Keep Article, BreadcrumbList, FAQ and genuine HowTo content aligned with visible text |
-| Evidence | Retain source links, accurate update dates, original examples and screenshot descriptions |
-| AI-readable companions | Regenerate `llms.txt` and Markdown companions alongside visible source content |
-
-Google states that its AI search features require no special AI files or additional schema. Existing SEO fundamentals apply, and inclusion is not guaranteed. See [Google's AI features guidance](https://developers.google.com/search/docs/appearance/ai-features) and [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide).
-
-A local README does not itself change live page metadata, indexing or rankings. The primary site's Markdown companions are served with `noindex, follow`; they support documentation rather than compete with the HTML pages. Keep essential answers on indexable HTML pages. FAQ and HowTo markup must not be described as a promise of rich results or AI citations.
-
-The supplied Australian keyword dataset is dated **29 October 2026** and lives in `keyword-research/imports/`. Its metrics are provider estimates, not current traffic measurements. Do not relabel cached research as fresh keyword data.
-
 ## Deploy to Hostinger
 
 1. Back up the existing web root and confirm that the generated files and required checks are ready.
